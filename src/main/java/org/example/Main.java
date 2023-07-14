@@ -8,15 +8,25 @@ public class Main {
     public static void main(String[] args) {
         Scanner keyboardInput = new Scanner(System.in);
 
-        // Cuarto ejercicio - clase 2 (e:4 c:2)
+        // Quinto ejercicio  - clase 2 (e:5 c:2)
         String stringNumber;
+        double doubleNumber;
+
+        System.out.print("Ingrese un número decimal: ");
+        stringNumber = keyboardInput.next();
+        doubleNumber = Double.parseDouble(stringNumber);
+
+        System.out.println("El valor decimal es: "+ doubleNumber);
+
+        // Cuarto ejercicio - clase 2 (e:4 c:2)
+        /*String stringNumber;
         float floatNumber;
 
         System.out.print("Ingrese un número decimal: ");
         stringNumber = keyboardInput.next();
         floatNumber = Math.round(Float.parseFloat(stringNumber));
 
-        System.out.println("El valor redondeado a entero es: "+ floatNumber);
+        System.out.println("El valor redondeado a entero es: "+ floatNumber);*/
 
         // Tercer ejercicio propuesto - clase 2 ( e:3 c:2 )
        /* String stringNumber;
