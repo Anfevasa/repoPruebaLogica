@@ -7,16 +7,26 @@ import static java.lang.Math.sqrt;
 public class Main {
     public static void main(String[] args) {
         Scanner keyboardInput = new Scanner(System.in);
-        // Tercer ejercicio propuesto - clase 2 ( e:3 c:2 )
+
+        // Cuarto ejercicio - clase 2 (e:4 c:2)
         String stringNumber;
+        float floatNumber;
+
+        System.out.print("Ingrese un número decimal: ");
+        stringNumber = keyboardInput.next();
+        floatNumber = Math.round(Float.parseFloat(stringNumber));
+
+        System.out.println("El valor redondeado a entero es: "+ floatNumber);
+
+        // Tercer ejercicio propuesto - clase 2 ( e:3 c:2 )
+       /* String stringNumber;
         int intNumber;
 
         System.out.print("Ingrese un número entero: ");
         stringNumber = keyboardInput.next();
         intNumber = Integer.parseInt(stringNumber);
 
-        System.out.println("El valor parseado a entero es: "+ intNumber);
-
+        System.out.println("El valor parseado a entero es: "+ intNumber);*/
 
         // Segundo ejercicio propuesto - clase 2 ( e:2 c:2 )
         /*int numberGiven;
